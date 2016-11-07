@@ -11,9 +11,14 @@ function merge(left, right) {
 // Driver code
 function main() {
 
-  sort_from_file('random_wordlist.txt')
-  sort_from_file('reversed_wordlist.txt')
-  sort_from_file('sorted_wordlist.txt')
+  sort_from_file('test_random_wordlist.txt')
+  sort_from_file('test_reversed_wordlist.txt')
+
+  //Aktifkan 3 Baris dibawah ini untuk mengaktifkan proses selection sort untuk data lebih besar
+
+  // sort_from_file('random_wordlist.txt')//Menjalankan Fungsi sort_from_file() dengan data param random_wordlist.txt
+  // sort_from_file('reversed_wordlist.txt')//Menjalankan Fungsi sort_from_file() dengan data param reversed_wordlist.txt
+  // sort_from_file('sorted_wordlist.txt')//Menjalankan Fungsi sort_from_file() dengan data param sort_from_file.txt
 
 }
 

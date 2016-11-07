@@ -2,11 +2,12 @@
 
 function quickSort(arr) {
 
+
+
 }
 
 // Driver code
 function main() {
-
   sort_from_file('test_random_wordlist.txt')
   sort_from_file('test_reversed_wordlist.txt')
 
